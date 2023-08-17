@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TansuoShop:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TansuoShop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tansuoShop-1.0.war">
+      <element id="artifact" artifact-name="TansuoShop:war exploded" />
+    </root>
+  </artifact>
+</component>
